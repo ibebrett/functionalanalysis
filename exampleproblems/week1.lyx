@@ -1,0 +1,418 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Topological Spaces
+\end_layout
+
+\begin_layout Section*
+Problem 1
+\end_layout
+
+\begin_layout Section*
+Problem 2
+\end_layout
+
+\begin_layout Paragraph*
+Let 
+\begin_inset Formula $A\subset(X,T)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\bar{A}=A$
+\end_inset
+
+ iff 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+First prove if 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed then 
+\begin_inset Formula $\bar{A}=A.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph*
+Since 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed, if 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ then any neighboorhood of 
+\begin_inset Formula $x$
+\end_inset
+
+contains 
+\begin_inset Formula $x$
+\end_inset
+
+, which is also in 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Therefore 
+\begin_inset Formula $x\in\bar{A}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Since 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed, if 
+\begin_inset Formula $x\notin A$
+\end_inset
+
+ then the open set 
+\begin_inset Formula $X\backslash A$
+\end_inset
+
+ is a neighborhood of 
+\begin_inset Formula $x$
+\end_inset
+
+where 
+\begin_inset Formula $A\cap(X\backslash A)=\{\}$
+\end_inset
+
+ and therefore 
+\begin_inset Formula $x\notin\bar{A}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Therefore if 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed then 
+\begin_inset Formula $\bar{A}=A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph
+Now prove if 
+\begin_inset Formula $\bar{A}=A$
+\end_inset
+
+ then 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed.
+\end_layout
+
+\begin_layout Paragraph*
+Since 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+ is a closure we know that 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+ contains its contact points.
+ Therefore if 
+\begin_inset Formula $x\in X\backslash\bar{A}$
+\end_inset
+
+ then 
+\begin_inset Formula $x$
+\end_inset
+
+is not a contact point.
+ Therefore we know that for 
+\begin_inset Formula $x\in X\backslash\bar{A}$
+\end_inset
+
+ there exists a neighborhood with an open interior 
+\begin_inset Formula $V$
+\end_inset
+
+ such that 
+\begin_inset Formula $x\in V$
+\end_inset
+
+ and 
+\begin_inset Formula $V\cap\bar{A}=\{\}$
+\end_inset
+
+.
+ Therefore we can take of open neighborhoods of 
+\begin_inset Formula $x$
+\end_inset
+
+ that do not intersect with 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+ for all 
+\begin_inset Formula $x\in X\backslash\bar{A}$
+\end_inset
+
+ .
+ We know this union will equal to 
+\begin_inset Formula $x\in X\backslash\bar{A}$
+\end_inset
+
+ because we have included an open neighborhood of 
+\begin_inset Formula $x$
+\end_inset
+
+for all 
+\begin_inset Formula $x\in X\backslash\bar{A}$
+\end_inset
+
+ and that none of the open neighborhoods intersect with 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+.
+ Since the infinite union of open set is is open, we know that 
+\begin_inset Formula $X\backslash\bar{A}$
+\end_inset
+
+ is open and therefore 
+\begin_inset Formula $\bar{A}$
+\end_inset
+
+ is closed.
+ Since 
+\begin_inset Formula $\bar{A}=A$
+\end_inset
+
+ we know that 
+\begin_inset Formula $A$
+\end_inset
+
+ is closed.
+\end_layout
+
+\begin_layout Section*
+Problem 3
+\end_layout
+
+\begin_layout Paragraph
+Given a topological space 
+\begin_inset Formula $(X,T)$
+\end_inset
+
+, prove that a set 
+\begin_inset Formula $A\subset X$
+\end_inset
+
+ is open iff every point 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ has an open neighborhood contained in 
+\begin_inset Formula $A$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+First prove if every point 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ has an open neighborhood contained in 
+\begin_inset Formula $A$
+\end_inset
+
+ then 
+\begin_inset Formula $A$
+\end_inset
+
+ is open.
+\end_layout
+
+\begin_layout Paragraph*
+If every point 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ has an open neighborhood contained in 
+\begin_inset Formula $A$
+\end_inset
+
+ then we can union all of these neighborhoods togethor to get 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Since every point in 
+\begin_inset Formula $A$
+\end_inset
+
+ is included, and each set is contained in 
+\begin_inset Formula $A,$
+\end_inset
+
+we know we get 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Since each neighborhod was open we know their union 
+\begin_inset Formula $A$
+\end_inset
+
+ must also be open.
+\end_layout
+
+\begin_layout Paragraph
+Now prove that if 
+\begin_inset Formula $A$
+\end_inset
+
+ is open then every point 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ has an open neighborhood contained in 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ For any 
+\begin_inset Formula $x\in A$
+\end_inset
+
+ we can say that 
+\begin_inset Formula $A$
+\end_inset
+
+ is an open neighborhood containing 
+\begin_inset Formula $x$
+\end_inset
+
+ and itself.
+\end_layout
+
+\begin_layout Section*
+Problem 4
+\end_layout
+
+\begin_layout Paragraph
+Let 
+\begin_inset Formula $f:(X,T_{x})\rightarrow(Y,T_{y})$
+\end_inset
+
+ be a mapping of a topological space 
+\begin_inset Formula $(X,T_{x})$
+\end_inset
+
+ into a topological space 
+\begin_inset Formula $(Y,T_{y})$
+\end_inset
+
+.
+ The mapping 
+\begin_inset Formula $f$
+\end_inset
+
+ is continuous if and only if the topology 
+\begin_inset Formula $T_{x}$
+\end_inset
+
+ is stronger than the topology 
+\begin_inset Formula $f^{-1}(T_{y})$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
